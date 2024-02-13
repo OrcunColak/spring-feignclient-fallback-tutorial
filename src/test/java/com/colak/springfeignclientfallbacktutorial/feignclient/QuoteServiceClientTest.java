@@ -19,7 +19,7 @@ class QuoteServiceClientTest {
     private QuoteServiceClient quoteServiceClient;
 
     // curl -k -i --http2 https://localhost:8080/api/service/getQuote/1
-    // -k accepts self signed certificate
+    // -k accepts self-signed certificate
     // -i shows headers
     // --http2 uses htt2
     @Test
